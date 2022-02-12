@@ -8,6 +8,10 @@ h1,h2,h3,h4,h5,h6 {
   letter-spacing: -0.0415625em !important;
 }
 
+h2, h3 {
+  margin-top: 4rem !important;
+}
+
 .is-root-container.block-editor-block-list__layout {
   max-width: 40rem !important;
   margin: 4rem auto !important;
