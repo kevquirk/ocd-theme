@@ -1,0 +1,19 @@
+body {
+    font-family: var(--sans-font) !important;
+}
+
+.is-root-container.block-editor-block-list__layout {
+  max-width: 40rem !important;
+  margin: 4rem auto !important;
+}
+
+.edit-post-visual-editor__post-title-wrapper {
+  text-align: center !important;
+}
+
+a,
+a:hover {
+  text-decoration: underline !important;
+  text-decoration-color: var(--accent) !important;
+  text-decoration-thickness: .15rem !important;
+}
