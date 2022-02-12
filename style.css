@@ -1,0 +1,97 @@
+/*
+ Theme Name:   One Crap Dad
+ Theme URI:    https://onecrapdad.com
+ Description:  Child theme for One Crap Dad
+ Author:       Kev Quirk
+ Author URI:   https://kevq.uk
+ Template:     generatepress
+ Version:      1.0
+*/
+
+/** Global colour variables **/
+ :root {
+    --text: #222222;
+    --accent: #BD5044;
+    --bg: #F0EFED;
+    --accent-bg: #DCDAD6;
+    --serif-font: "Newsreader", "Times New Roman", serif;
+    --sans-font: "Inter", Arial, sans-serif;
+ }
+
+/**** Newsreader Font ****/
+/* newsreader-regular - latin */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('/wp-content/uploads/fonts/newsreader-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/wp-content/uploads/fonts/newsreader-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* newsreader-600 - latin */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('/wp-content/uploads/fonts/newsreader-v7-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/wp-content/uploads/fonts/newsreader-v7-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* newsreader-italic - latin */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''),
+       url('/wp-content/uploads/fonts/newsreader-v7-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/wp-content/uploads/fonts/newsreader-v7-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* newsreader-600italic - latin */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 600;
+  src: local(''),
+       url('/wp-content/uploads/fonts/newsreader-v7-latin-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/wp-content/uploads/fonts/newsreader-v7-latin-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/**** Inter Font ****/
+/* inter-regular - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('/wp-content/uploads/fonts/inter-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/wp-content/uploads/fonts/inter-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-900 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: bold;
+  font-weight: 900;
+  src: local(''),
+       url('/wp-content/uploads/fonts/inter-v7-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/wp-content/uploads/fonts/inter-v7-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+a {
+	text-decoration-color: var(--accent);
+	text-decoration-thickness: 0.15rem;
+}
+.inside-header.grid-container a:hover ,
+.current-menu-item{
+	text-decoration: underline;
+	text-decoration-thickness: 0.2rem;
+}
+
+.medium {
+	font-size: 1.8rem;
+	line-height: 1.3;
+}
