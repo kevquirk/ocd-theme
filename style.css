@@ -85,8 +85,8 @@ a {
 	text-decoration-thickness: 0.15rem;
 }
 
-.inside-header.grid-container a:hover ,
-.current-menu-item{
+.inside-header.grid-container a:hover,
+.current-menu-item {
 	text-decoration: underline;
 	text-decoration-thickness: 0.2rem;
   text-decoration-color: var(--bg) !important;
